@@ -1,0 +1,220 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+            "responses": ["Hello!", "Hey!", "What can I do for you?"]
+        },
+
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you"],
+            "responses": ["You can call me BOTNIK", "I'm BOTNIK", "I'm BOTNIK your virtual assistant"]
+        },
+
+        {
+            "tag": "courses",
+            "patterns": ["what courses are available", "how many courses are there in this college"],
+            "responses": ["Tulsiramji Gaikwad patil College OF Engineering & Technology An Autonomous institute Affilated to RTM Nagpur University, \nFor Post Graduation (PG) we have been offering the specialization (Msc) in Following branch.\nFor Under Graduation(UG) we have been offering the followings:\n\n1. Bachleor of Technology B.Tech(BE) \n\n2. BCA (Bachleor of Computer Application) \n\n3. MCA(masters of Computer Application)"]
+        },
+
+        {
+            "tag": "Selectdepartment",
+            "patterns": ["Information about Branch", "How many Branch in B.tech "],
+            "responses": ["TGPCET college offers 4 year B.tech ,  2 Years M.tech course  and 3 year BCA course."]
+        },
+
+        {
+            "tag": "courseDuration",
+            "patterns": ["how long will be  B.tech or M tech", "how long will it take to complete BCA or MCA course"],
+            "responses": ["TGPCET college offers 4 year B.tech   2 Years M.tech course  and 3 year BCA course and 2 years of MCA course."]
+        },
+
+        {
+            "tag": "Location",
+            "patterns": ["location", "where is it located", "what is the location of the college"],
+            "responses": [" wardha road Mohgav Butibori Nagpur-441108."]
+        },
+
+        {
+            "tag": "semesters",
+            "patterns": ["how many semesters are there in a year", "how many semesters one should study in a year"],
+            "responses": ["There are two semesters in a year."]
+        },
+
+        {
+            "tag": "semDuration",
+            "patterns": ["how many months are there in a semester", "how long will be a single semester"],
+            "responses": ["The single semester will be around 4 months."]
+        },
+        {
+            "tag": "Addmission",
+            "patterns": ["what are the student requirements  of Documents for admission of Direct Second year ", "entry requirements of Documents ", "admission requirements for Documents "],
+            "responses": ["\n  ####Documents Require for Addmission ###\n1.Indian Nationality Certificate\n2.Domicile Certificate\nMHT - CET / JEE / GATE / AIMCET Score Card / MBA - CET / MCA - CET / CAT\n 3.12 th Mark sheet CAT\n4.10 th Mark sheet\n5.Transfer / Leaving Certificate\n6.Provisional Passing / Diploma / Degree Certificate\n7.All year / semester Diploma / Degree Mark sheet\n8.Eligibility Certificate\n 9.Migration certificate\n10.Equivalence Certificate\n11.Gap Certificate\n12.Admission letter in original\n13.Caste certificate\n14.Caste Validity certificate\n15.Non creamy layer certificate\n"]
+        },
+        {
+            "tag": "studentRequirements for 1st",
+            "patterns": ["what are the student requirements for admission of 1st year ", "entry requirements of 1st year ", "admission requirements for BE first  year"],
+            "responses": ["\n Eligiblity CRITERIA \nHSC (Std.XII) or Equivalent with subjects English and PCM/PMB/ PM Biotech/PM (any Technical Vocational sub and non-zero score in JEE.\n Minimum aggregate 45% (135/300) marks in Physics, Mathematics and Chemistry / Biology / Biotech / Vocational Subjects for Open Category and Minimum aggregate 40% (120/300) marks in\n PCM Group for SC/ST/VJ/NT/DT/SBC/OBC Candidates from Maharashtra state only."]
+        },
+        {
+            "tag": "studentRequirements for DSY",
+            "patterns": ["what are the student requirements for admission of Direct Second year ", "entry requirements of direct  2nd year ", "admission requirements for BE dsy"],
+            "responses": ["\n Eligiblity CRITERIA \nDiploma of MSBTE or Autonomous Institution or Diploma equivalent to the Diploma awarded by MSBTE/B. Science Degree (English Medium).\n Minimum aggregate 50% (Open) and 45% (Other Category) marks in Diploma Course in Engineering or Technology of MSBTE or B.Sc. Degree 50% (Open) and 45% (Other Category) marks for Maharashtra candidates"]
+        },
+        {
+            "tag": "studentRequirements for Mtech",
+            "patterns": ["what are the student requirements for admission of M.tech ", "entry requirements of  M.tech year ", "admission requirements for ME "],
+            "responses": ["\n Eligiblity CRITERIA \nThe Candidate should be an Indian National\nPassed Bachelor Degree in the relevant field of Engineering and Technology from All India Council for Technical Education or Central or State Government approved institutions or equivalent, with at least 50% marks (at least 45% marks in case of candidates of Backward class categories and persons with disability belonging to Maharashtra State only\nObtained non zero positive score in Graduates Aptitude Test in Engineering (GATE) conducted by Indian Institute of Technology\nFor sponsored candidates, minimum of two years of fulltime work experience in a registered firm/ company/industry/ educational and/ or research institute/ any Government Department or Government Autonomous Organization in the relevant field in which admission is being sought.."]
+        },
+        {
+            "tag": "classes",
+            "patterns": ["how many classes will be there in a day", "how long are the classes?"],
+            "responses": ["There may be four Classes & three  praticals per day. Each class will be of 45 minutes."]
+        },
+
+        {
+            "tag": "teachingStyle",
+            "patterns": ["what is the teaching style of this college?", "Is the teaching pattern different from other college?", "what is the teaching format?"],
+            "responses": ["Our college has different teaching patterns than other colleges of Nagpur. We adopt a  teaching methodology, following the LTW techniques which stands for Lecture, Tutorial and Workshop.\nYou can provide us with your contact details and our counselors shall reach out to you and provide you with further details."]
+        },
+
+        {
+            "tag": "exams",
+            "patterns": ["what are the exams like?", "What is the exam pattern"],
+            "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+        },
+
+        {
+            "tag": "hours",
+            "patterns": ["what are your hours", "when are you guys open", "what your hours of operation"],
+            "responses": ["You can message us here at any hours. But our college premises will be open from 11:00 am to 5:00 pm only."]
+        },
+
+
+        {
+            "tag": "funActivities",
+            "patterns": ["will there be any extra curriculum activities ?", "does the college conducts any fun program"],
+            "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports, Carnival, Holi festival, and Flash MOb . \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+        },
+
+        {
+            "tag": " Departments ",
+            "patterns": ["How many Branch available in College ?", "Branch  of Course ?"],
+            "responses": ["In B.Tech  the following Branch are :\n Computer science & Engineering (CSE)\n Information Technology (IT)\n Electrical Engineering (EE)\n Mechanical Engineering (ME)\n Auronotical Engineering(AE) \n Biotechnology Engineering(BTE)"]
+        },
+
+        {
+            "tag": "facilities",
+            "patterns": ["what facilities are provided by the college?", "what are the facilities of college for students", "what are the college infrastructures "],
+            "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, discusson room, canteen, Hostel Facilities , Bus facilitie, parking space, and student section  for any students queries."]
+        },
+
+        {
+            "tag": "fees",
+            "patterns": ["how much is the college fee", "what is the fee structure"],
+            "responses": ["Course B.Tech\nAdmission fee=RS 96,000\nYear 1\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 69,000 Total fee= RS 334,000\nYear 2\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 69,000 Total fee= RS 238,000\nYear 3\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 69,000 Total fee= RS 238,000\nYear 4\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 69,000 Total fee= RS 238,000\nGrandTotal fee= RS 810,000\n\nCourse BBA\nAdmission fee=RS 96,000\nYear 1\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 52,000 Total fee= RS 300,000\nYear 2\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 52,000 Total fee= RS 204,000\nYear 3\nUniversity and Exam fee= RS 100,000 Each semester fee=RS 52,000 Total fee= RS 204,000\nYear 4\nUniversity and Exam fee= RS 50,000 Semester fee=RS 52,000 Total fee= RS 102,000\nGrandTotal fee= RS 810,000"]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "see ya"],
+            "responses": ["Sad to see you go :(", "Talk you later", "Goodbye"]
+        },
+
+        {
+            "tag": "invalid",
+            "patterns": ["", "gvsd", "asbhk"],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": " Dept.CSE ",
+            "patterns": ["who are the HOD of CSE", "Name and details of HOD of Computer Science", "Information About Computer Science Engineering"],
+            "responses": ["Name : Porf. Abhimanyu Dutonde\nEmail id: hod.cse@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.CIVIL ",
+            "patterns": ["who are the HOD of Civil", "Name and details of HOD of Civil", "Information About Civil Engineering"],
+            "responses": ["Name : Prof. Aasif M.Baig \n Email id : hod.civil@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.IT ",
+            "patterns": ["who are the HOD of IT", "Name and details of HOD of IT", "Information About Information Technology"],
+            "responses": ["Name : Prof.Sarvesh Wajurkar\n Email id: hod.it@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.EE ",
+            "patterns": ["who are the HOD of EE", "Name and details of HOD of EE", "Information About Electrical Engineering"],
+            "responses": ["Name : Prof.Prashant Thakre \n Email id : hod.electrical@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.B.tech ",
+            "patterns": ["who are the HOD of Biotech", "Name and details of HOD of BioTechnology", "Information About Bio Technology", "About BioTechnology"],
+            "responses": ["Prof.Anup Bagade \n Email id: hod.bt@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.ME ",
+            "patterns": ["who are the HOD of ME", "Name and details of HOD of Mechanical Engineering", "Information About Mechanical Department"],
+            "responses": ["Prof.Ritesh Banpurkar \n Email id: hod.mechanical@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.ECE ",
+            "patterns": ["who are the HOD of ECE", "Name and details of HOD of Electronics And Communication Engineering ", "Information About ELectronicsand Telecommunication Engineering"],
+            "responses": ["Prof.Rohini Pochhi\n Email id: hod.ece@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.AE ",
+            "patterns": ["who are the HOD of AE ", "Name and details of HOD of Aeronautical Engineering", "Information About Aeronautical"],
+            "responses": ["Prof.Kalpit Kaurase \n Email id: hod.aeronautical@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.TNP ",
+            "patterns": ["who are the HOD of TNP", "Name and details of HOD of TnP", "Information About Training and Placement Department"],
+            "responses": ["Prof.Vidhyadhar Kshirsagar \n Email id: deantnp@tgpcet.com"]
+        },
+        {
+            "tag": " Dept.GE ",
+            "patterns": ["who are the HOD of General Engineering", "Name and details of HOD of BE First Year", "Information About Science and Humanities"],
+            "responses": ["Prof.Sarvesh Wajurkar\n Email id: hod.it@tgpcet.com"]
+        },
+
+        {
+            "tag": "PG Dept.AIML ",
+            "patterns": ["who are the HOD of AIML", "Name and details of HOD of Artificial Intelligence and Machine Learning", "Information About Mtech Atrificial Intelligence "],
+            "responses": ["Prof.Jayant Rohankar \n Contact : 9923280398"]
+
+        },
+        {
+            "tag": "PG Dept.IPS ",
+            "patterns": ["who are the HOD of IPS", "Name and details of HOD of Integrated Power System", "Information About Integrated Power System M.tech"],
+            "responses": ["Prof.Pratik Ghatke \n Email id: pratik.electrical@tgpcet.com"]
+        },
+        {
+            "tag": "PG Dept.SE ",
+            "patterns": ["who are the HOD of Structural Engineering", "Name and details of HOD of Structural Engineering", "Information About Structural Engineering M.tech"],
+            "responses": ["Prof.Sanjay Bdadke \n Email id: sanjay.civil@tgpcet.com"]
+        },
+        {
+            "tag": "PG Dept. ",
+            "patterns": ["who are the HOD of IPS", "Name and details of HOD of Integrated Power System", "Information About Integrated Power System M.tech"],
+            "responses": ["Prof.Pratik Ghatke \n Email id: pratik.electrical@tgpcet.com"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}
